@@ -10,9 +10,7 @@ programa {
 		
 		maior = num
 		menor = num
-		/*
-			leia(num1)*/
-		
+				
 		para(i = 0; i < num1 - 1; i++){
 			escreva("Entre com um número: ")
 			leia(num)
@@ -28,18 +26,3 @@ programa {
 		escreva("\n\nO menor: " + menor)
 	}
 }
-
- 		/*	senao{
-				se(num < menor){
-					menor = num
-				}
-			}
- 				escreva("\n\nO menor: " + menor)
- 		
- 		
- 		escreva("Digite 0 para gerar o maior número:")
-		leia(m)	
-		se(m > 0){
-		escreva("\n"+ num + " é o maior número até 0.")
-		num = num
-		}*/
